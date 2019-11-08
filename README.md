@@ -7,7 +7,11 @@ Software
 --------
 This demo runs on *OpenShift 4.x*, and therefore requires an available OpenShift 4.x runtime. This can be a OpenShift Container Platform 4.z instance, a Code Ready Containers instance, etc. The only requirement is that there are enough resource available to run the 4 OpenShift pods that this demo consists off.
 
-Install on OpenShift
+Demo Walkthrough Guide
+--------
+ A full walkthrough guide of the demo can be found [here](https://docs.google.com/document/d/1TVrTkQRZoQAQoOGDzKpWOI68x2Mre_dXifTWf9lzKsE/).
+
+Install on OpenShift 4
 -------------------------------
 This demo can be installed on Red Hat OpenShift in various ways. We'll explain the different options provided.
 
@@ -28,8 +32,6 @@ This installation option will install the demo in OpenShift using a single scrip
 2. Run the `init-openshift.sh` (Linux/macOS) or `init-openshift.ps1` (Windows) file. This will create a new project and application in OpenShift 4 and deploy the demo.
 
 3. Login to your OpenShift console. For a local [CodeReady Containers](https://github.com/code-ready/crc) OpenShift 4 installation, the console can be accessed by executing `crc console` from a terminal.
-
-4. A full walkthrough script of the demo can be found [here](https://docs.google.com/document/d/1TVrTkQRZoQAQoOGDzKpWOI68x2Mre_dXifTWf9lzKsE/)
 
 ### Scripted installation
 This installation option will install the demo in OpenShift using the provided `provision.sh` (Linux/macOS) or `provision.ps1` (Windows) script, which gives the user a bit more control how to provision to OpenShift.
